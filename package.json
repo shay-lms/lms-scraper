@@ -7,6 +7,6 @@
 "start": "node index.js"
 },
 "dependencies": {
-"playwright": "^21.3.8"
+"playwright": "^1.42.0"
 }
 }
