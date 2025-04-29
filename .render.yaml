@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: lms-scraper
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    region: oregon
+    runtime: node
+    repo: https://github.com/shay-lms/lms-scraper
+    branch: main
